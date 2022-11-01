@@ -288,7 +288,7 @@ def makepack_internal(msg, user, png_sticker, emoji, bot, packname, packnum):
         msg.reply_text("Failed to create sticker pack. Possibly due to blek mejik.")
 
 
-kang_handler = CommandHandler('tiker', kang, pass_args=True)
+kang_handler = CommandHandler('meleganteng', kang, pass_args=True)
 kangurl_handler = CommandHandler('kangurl', kangurl, pass_args=True)
 start_handler = CommandHandler('start', start)
 
